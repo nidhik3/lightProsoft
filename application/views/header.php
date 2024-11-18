@@ -18,7 +18,7 @@
 
   <!-- ======= Header ======= -->
   <!-- Menu Start -->
-  <header class="header-primary">
+  <header class="header-primary  section-gradient-top">
     <div class="container">
       <nav class="navbar navbar-expand-xl justify-content-between">
       <div class="plogo col-md-2" >

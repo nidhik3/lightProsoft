@@ -69,7 +69,7 @@
 <!-- Main Start -->
 <main class="wrapper">
     <!-- Hero Start -->
-    <section class="aai-hero-one position-relative whitebg"  >
+    <section class="aai-hero-one position-relative whitebg "  >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-xl-9">

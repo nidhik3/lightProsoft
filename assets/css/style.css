@@ -64,10 +64,11 @@
   z-index: 1;
 }
 
-.paddingTop{
+.paddingTop {
   padding-top: 60px;
 }
-.paddingBottom{
+
+.paddingBottom {
   padding-bottom: 60px;
 }
 
@@ -75,28 +76,47 @@
 .whitebg {
   background-color: #ffffff;
 }
-.lightblue{
-  background: linear-gradient(rgb(249, 251, 252), rgb(207, 230, 241)) !important;
+
+.lightblue {
+  /* background: linear-gradient(rgb(249, 251, 252), rgb(207, 230, 241)) !important; */
+  background: linear-gradient(rgb(238 249 253), rgb(207, 230, 241)) !important;
   color: #242424 !important;
 
 }
+
 .lightgrey {
   background-color: #dfe9ee;
 
 }
-.grey{
+
+.grey {
   background-color: #e4e7e8;
   /* background: linear-gradient(rgb(253, 252, 251), rgb(226, 229, 231))  !important; */
 }
 
 
-.fontclr  {
+.fontclr {
   color: #555657 !important;
 }
 
-.lightblk{
-  color:#242424 !important ;
+.lightblk {
+  color: #242424 !important;
 }
+
+.header-gradient {
+ 
+  width: 100%;
+  color: #ffffff !important;
+  /* Text color to contrast */
+}
+
+.section-gradient-top {
+  background: linear-gradient(to bottom, rgba(128, 252, 240, 0.7), rgba(255, 255, 255, 0));
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 5px;
+}
+
 
 /* colorcss */
 
@@ -218,13 +238,14 @@ h6 {
   border: 2px solid #428392;
   color: #428392;
   padding: 15px 30px;
-    border-radius: 30px;
-    font-size: var(--text-lg);
-    transition: all 0.4s ease-in;
-    position: relative;
-    overflow: hidden;
-    z-index: 10;
+  border-radius: 30px;
+  font-size: var(--text-lg);
+  transition: all 0.4s ease-in;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
 }
+
 .btn-blue::after {
   content: "";
   position: absolute;
@@ -237,13 +258,15 @@ h6 {
   border-radius: 30px;
   z-index: -1;
 }
+
 .btn-blue:hover {
 
-  background:linear-gradient(90deg, rgb(80, 167, 186), rgb(103, 147, 174));
+  background: linear-gradient(90deg, rgb(80, 167, 186), rgb(103, 147, 174));
   color: white;
   border-radius: 30px;
-  border: 1ps xolid transparent;;
- 
+  border: 1ps xolid transparent;
+  ;
+
 }
 
 
@@ -263,7 +286,7 @@ h6 {
   left: 0;
   width: 0;
   height: 100%;
-  background:linear-gradient(90deg, rgb(80, 167, 186), rgb(103, 147, 174));
+  background: linear-gradient(90deg, rgb(80, 167, 186), rgb(103, 147, 174));
   transition: all 0.35s;
   border-radius: 30px;
   z-index: -1;
@@ -301,7 +324,7 @@ h6 {
 
 .aai-gradient-outline-btn {
   padding: 10px 25px;
-  color: #555657 ;
+  color: #555657;
   position: relative;
   display: inline-block;
   border-radius: 30px;
@@ -318,7 +341,7 @@ h6 {
   left: 0;
   width: 0;
   height: 100%;
-  background:linear-gradient(90deg, rgb(80, 167, 186), rgb(103, 147, 174));
+  background: linear-gradient(90deg, rgb(80, 167, 186), rgb(103, 147, 174));
   color: white !important;
   transition: all 0.35s;
   border-radius: 30px;
@@ -357,7 +380,7 @@ h6 {
 
 .section-desc {
   font-size: 18px;
-  color:#555657;
+  color: #555657;
   line-height: 28px;
 }
 
@@ -365,6 +388,7 @@ h6 {
 
 .navbar .navbar-nav .nav-item:hover .nav-link {
   color: #498896;
+  font-weight: 600;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -442,6 +466,7 @@ h6 {
 
   .header-primary .navbar .navbar-nav .nav-link {
     color: #555657;
+    font-weight: 500;
   }
 
   .header-primary .navbar .navbar-nav .nav-link::after {
@@ -716,7 +741,7 @@ h6 {
 }
 
 .aai-hero-one-title {
-  font-size: 72px;
+  font-size: 68px;
   font-weight: var(--font-bold);
   color: var(--white);
   line-height: 1.3;
@@ -881,10 +906,11 @@ h6 {
 
 }
 
-.aai-feature-box:hover  {
+.aai-feature-box:hover {
   background-color: rgba(18, 23, 43, 0.5);
-  
-} 
+
+}
+
 .aai-feature-box:hover .aai-feature-title {
   color: white !important;
 }
@@ -1257,8 +1283,8 @@ h6 {
   width: 0;
   transition: all 0.35s;
   height: 100%;
-   background: linear-gradient(rgb(102, 162, 193), rgb(207, 230, 241)) !important;
-   border-radius: 50%;
+  background: linear-gradient(rgb(102, 162, 193), rgb(207, 230, 241)) !important;
+  border-radius: 50%;
   z-index: -1;
 }
 
@@ -1272,7 +1298,7 @@ h6 {
 
 .aai-footer-nav-title {
   font-size: var(--text-2xl);
-  color:#242424;
+  color: #242424;
   font-weight: var(--font-bold);
   line-height: 34px;
   margin-bottom: 20px;
@@ -1518,8 +1544,8 @@ Signup and Signin Page Start
 }
 
 .aai-signup-in-links a:first-of-type:hover {
-  color: var(--interface-4);
-  border-color: var(--interface-4);
+  color:white;
+  /* border-color: var(--interface-4); */
 }
 
 .aai-signup-in {
