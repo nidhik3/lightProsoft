@@ -30,6 +30,26 @@
 
 
 /* ncss */
+.dropdown-menu li a:hover {
+  color: red;
+}
+
+.blue-btn{
+    padding: 9px 25px;
+    color: #555657;
+    /* position: relative; */
+    display: inline-block;
+    border-radius: 30px;
+    /* border:2px solid red; */
+    background:linear-gradient(90deg, rgb(80, 167, 186), rgb(103, 147, 174));
+    font-size: 18px;
+    transition: all 0.3s;
+    z-index: 10;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+
 .image-slider {
   display: flex;
   align-items: center;
@@ -420,7 +440,7 @@ h6 {
 
 .navbar .dropdown-menu .dropdown:hover>.dropdown-item,
 .navbar .dropdown-menu .dropdown-item.active,
-.navbar .dropdown-menu .dropdown-item:hover {
+.navbar .dropdown-menu li a:hover {
   color: #edcb88;
 }
 
@@ -481,10 +501,24 @@ h6 {
     line-height: initial;
     color: white;
     font-weight: 500;
-    padding: 35px 0;
-    margin: 0 20px;
+    padding: 18px 0;
+    margin: 0 9px;
     position: relative;
   }
+
+  .navbar .navbar-nav .dropdown-toggle {
+  
+    margin: 0 17px !important;
+ 
+  }
+
+  .navbar .navbar-nav .aai-gradient-outline-btn  {
+   
+    margin: 21px 0;
+
+  }
+
+
 
   .nav-item:hover .nav-link::after {
     transform: rotate(-180deg);
@@ -914,6 +948,10 @@ h6 {
 }
 
 .aai-feature-box:hover .aai-feature-title {
+  color: white !important;
+}
+
+.aai-feature-box:hover .aai-feature-descnav-link{
   color: white !important;
 }
 

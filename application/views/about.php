@@ -130,7 +130,7 @@
         <div class="" style="max-width: 90%;margin:auto;">
             <div class="row d-flex justify-content-around">
                 <div class="col-md-3  text-center">
-                    <h1 class="gradient-text" style="font-weight:800;">65</h1>
+                    <h1 class="gradient-text" style="font-weight:800;"><span></span>65</h1>
                     <h4 style="color:#212529;font-weight:500;">Happy Clients</h4>
                 </div>
                 <div class="col-md-3  text-center">
