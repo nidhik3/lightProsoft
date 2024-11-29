@@ -50,7 +50,7 @@
     
     .card p {
       font-size: 0.95em;
-      margin: 0 15px 15px;
+      margin: 0 15px ;
       color: #555;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -58,19 +58,13 @@
     }
     
     .read-more {
-      display: inline-block;
-      margin: 10px 15px 15px;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 4px;
-      font-size: 0.9em;
-      transition: background-color 0.3s ease;
+        color: #555;
+      padding: 2px 20px 20px 15px;
+   
     }
     
     .read-more:hover {
-      background-color: #0056b3;
+     color: black;
     }
     </style>
 
@@ -125,19 +119,19 @@
           <img src="assets/image/b1.jpg" alt="Image 1">
           <h3>WHAT IS HOSPITAL MANAGEMENT SYSTEM</h3>
           <p>Modern hospital management system is an...</p>
-          <a href="page1.html" class="read-more">Read More</a>
+          <a href="news1" class="read-more">Read More</a>
         </div>
         <div class="card">
           <img src="assets/image/b2.jpg" alt="Image 2">
           <h3>ARAB HEALTH 2020 <br> INVITATION</h3>
           <p>Micro participates Arab Health 2020...</p>
-          <a href="page2.html" class="read-more">Read More</a>
+          <a href="news1" class="read-more">Read More</a>
         </div>
         <div class="card">
           <img src="assets/image/b3.jpg" alt="Image 3">
           <h3>Launching Mobile App and Patient Portal</h3>
           <p>Short description of the card content...</p>
-          <a href="page3.html" class="read-more">Read More</a>
+          <a href="news1" class="read-more">Read More</a>
         </div>
       </div>
     </div>
