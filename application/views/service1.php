@@ -1,43 +1,34 @@
-<section class="topp pt-120 pb-60"  style=" background-color: #080e26;">
-        <div class="container">
-            <!-- <h1 class=" text-center" style="font-weight: 700;"><span class="gradient-text">ProSoft</span></h1> -->
-            <h1 class=" text-center" style="font-weight: 700;color:white;">Outsourced <br> Product Development & Services</h1>
+<section class="topp pt-120 pb-60 lightblue">
+    <div class="container">
+        <!-- <h1 class=" text-center" style="font-weight: 700;"><span class="gradient-text">ProSoft</span></h1> -->
+        <h1 class=" text-center" style="font-weight: 700;">Outsourced <br> Product <span class=" gradient-text"> Development & Services</span></h1>
 
-            <p class="text-center mt-md-2 mt-2 wdd" style="max-width: 90%;margin:auto; color:white;">PROSOFT is a leading Outsourced Product Development and IT consulting company that provides full-spectrum software product development services to help organizations leverage leading-edge technologies for business improvement.
-            </p>
-
-           
-
-        </div>
-    </section>
+        <p class="text-center mt-md-2 mt-2 wdd" style="max-width: 90%;margin:auto;">PROSOFT is a leading Outsourced Product Development and IT consulting company that provides full-spectrum software product development services to help organizations leverage leading-edge technologies for business improvement. kuch hua ?aapko hua m shi hu tu lg ni rhe shimene ni deh a sach m msg kbhi kbhi ni aate noti ok 
+        </p>
 
 
-    <!-- Service Start -->
-<section class="aai-services" style=" background-color: #080e26;">
-    <div
-        style="
-            background: url('assets/img/bg/service-1.jpeg') no-repeat center
-              center/cover;
-          "
-        class="pt-1 pb-60">
+
+    </div>
+
+    <div class=" normals">
         <div class="container">
             <div class="row align-items-center">
                 <div
                     class="col-xl-5 col-lg order-2 order-lg-1 mt-5 mt-lg-0"
                     data-aos="fade-right">
                     <div>
-                    <img src="assets/image/service3a.jpeg" class="img-fluid" alt="" />
+                        <img src="assets/image/service3a.jpeg" class="img-fluid" alt="" />
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg order-1 order-lg-2">
                     <div>
                         <h2 class="section-title mb-4">
-                        Domain Registration
+                            Domain Registration
                         </h2>
                         <p class="section-desc">
-                        On the Internet, your domain name is your unique identity. Any individual, business or organization planning to have an Internet presence should invest in a domain name.
-                        <br /><br /> Having your own domain name, website and email addresses will give you and your business a more professional look. Another reason for a business to register a domain name is to protect copyrights and trademarks, build
-                        creditability, increase brand awareness, and search engine positioning.
+                            On the Internet, your domain name is your unique identity. Any individual, business or organization planning to have an Internet presence should invest in a domain name.
+                            <br /><br /> Having your own domain name, website and email addresses will give you and your business a more professional look. Another reason for a business to register a domain name is to protect copyrights and trademarks, build
+                            creditability, increase brand awareness, and search engine positioning.
 
                         </p>
 
@@ -58,15 +49,15 @@
                 <div class="col-xl-7 col-lg">
                     <div>
                         <h2 class="section-title mb-4">
-                        Email Configuration
+                            Email Configuration
                         </h2>
                         <p class="section-desc">
-                        Email communication is one of the most reliable forms of communication. For personal requirements, there might be various tools available for communication. When it comes to communication between different organisations or businesses,
-                        the most formal and reliable way is to send emails. To make your email look authentic and reliable, the email should be sent from your business's domain based email address.
-                        <br /><br /> Custom email address has a custom domain attached to it like, user@yourdomain.com. To begin with any business or the organization should have a domain. While a website is good to have (in case someone looks up based
-                        on your domain), but it is not mandatory to create a custom email address.
+                            Email communication is one of the most reliable forms of communication. For personal requirements, there might be various tools available for communication. When it comes to communication between different organisations or businesses,
+                            the most formal and reliable way is to send emails. To make your email look authentic and reliable, the email should be sent from your business's domain based email address.
+                            <br /><br /> Custom email address has a custom domain attached to it like, user@yourdomain.com. To begin with any business or the organization should have a domain. While a website is good to have (in case someone looks up based
+                            on your domain), but it is not mandatory to create a custom email address.
                         </p>
-                      
+
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg mt-5 mt-lg-0" data-aos="fade-left">
@@ -77,6 +68,6 @@
             </div>
         </div>
     </div>
-  
+
 </section>
 <!-- Service End -->

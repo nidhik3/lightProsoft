@@ -1,4 +1,4 @@
-<section class="aai-services"  style=" background-color: #080e26;">
+<section class="aai-services lightblue">
         <div
           style="
             background: url('assets/img/bg/service-1.jpeg') no-repeat center

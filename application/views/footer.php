@@ -166,7 +166,7 @@
    <script src="assets/js/glightbox-min.js"></script>
    <script src="assets/js/app.js"></script>
 
-
+<!-- 
    <script>
      const sliderContainer = document.querySelector('.slider-container');
      const prevButton = document.querySelector('.prev-arrow');
@@ -222,7 +222,7 @@
        movePrev();
        sliderInterval = setInterval(moveNext, 3000); // Restart auto slider after interaction
      });
-   </script>
+   </script> -->
 
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>

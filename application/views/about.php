@@ -1,11 +1,8 @@
 <main class="wrapper">
     <!-- Breadcrumb Start -->
     <section
-        class="aai-breadcrumb"
-        style="
-          background: url('assets/image/banner.jpeg') no-repeat center
-            center/cover;
-        ">
+        class="aai-breadcrumb" style="background: url('assets/image/banner.jpg') no-repeat center
+            center/cover;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto">
@@ -44,14 +41,14 @@
     </section>
     <!-- Breadcrumb End -->
 
-    <section class="topp">
+    <section class="topp normals whitebg">
         <div class="container pt-4">
-            <h1 class=" text-center" style="font-weight: 700; color:white;"><span class="gradient-text">ProSoft </span>Revolutionizing</h1>
-            <h1 class=" text-center" style="font-weight: 700;color:white;">
+            <h1 class=" text-center" style="font-weight: 700;"><span class="gradient-text">ProSoft </span>Revolutionizing</h1>
+            <h1 class=" text-center" style="font-weight: 700;">
                 Healthcare Management.</h1>
             <div class="row">
                 <div class="col-md-12">
-                    <p class=" text-center mt-md-3 mt-3 wdd" style="margin:auto; color:white;">PROSOFT is a state certified provider of
+                    <p class=" text-center mt-md-3 mt-3 wdd" style="margin:auto;">PROSOFT is a state certified provider of
                         Healthcare services. Founded in 2007 In INDIA with the idea of easing the stress on Healthcare services and with
                         the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow
                         the Health sector to maintain security if possible while maintaining their level of independence and functioning.
@@ -129,7 +126,7 @@
 
 
     <!-- our clients -->
-    <section class="top1 py-5 my-5" style="background-color:#6b7378;">
+    <section class="top1 py-5 grey " >
         <div class="" style="max-width: 90%;margin:auto;">
             <div class="row d-flex justify-content-around">
                 <div class="col-md-3  text-center">
@@ -153,17 +150,12 @@
     <!-- our clients -->
 
     <!-- prosoft edge -->
-    <section
-        class="aai-features"
-        style="
-          background: url('assets/img/bg/aai-feature-bg.jpeg') no-repeat center
-            center/cover;
-        ">
+    <section class="aai-features normals lightblue">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
                     <div class="aai-section-title mb-3 text-center mb-5">
-                        <h2 class="section-title"><span class="gradient-text">Prosoft’s</span> Edge
+                        <h2 class="section-title" style="color:black"><span class="gradient-text">Prosoft’s</span> Edge
                         </h2>
                         <p class="section-desc">
                             PROSOFT having head office in “INDIA” having installations in other countries like Kuwait, Qutar, Maldives, and Singapore, UAE.
@@ -334,13 +326,13 @@
     <!-- prosoft edge -->
 
     <!-- value Start -->
-    <section class="aai-services">
+    <section class="aai-services lightblue">
 
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-7">
                     <div>
-                        <h2 class="section-title mb-4">
+                        <h2 class="section-title mb-4" style="color: black;">
                             Value
                             Proposition
                         </h2>
@@ -447,17 +439,11 @@
             </div>
         </div>
         </div>
-    </section>
-    <!-- value End -->
-
-
-
-    <!-- trusted -->
-    <section class="mt-5">
-        <div class="container">
-            <h1 class=" text-center" style="font-weight: 700; color:white;">Trusted by Leading Healthcare<br> Providers Worldwide.</h1>
+   
+        <div class="container paddingTop">
+            <h1 class=" text-center" style="font-weight: 700; ">Trusted by Leading Healthcare<br> Providers Worldwide.</h1>
         </div>
-        <div class="row mt-md-5 mt-3 ">
+        <div class="row paddingBottom  ">
             <div class="image-slider">
                 <!-- <button class="prev-arrow px-5">❮</button> -->
                 <div class="slider-container">

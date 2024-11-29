@@ -71,10 +71,14 @@
 .paddingBottom {
   padding-bottom: 60px;
 }
+.normals{
+  padding:60px 0;
+}
 
 /* colorcss */
 .whitebg {
   background-color: #ffffff;
+  color: #242424 !important;
 }
 
 .lightblue {
@@ -370,7 +374,7 @@ h6 {
 /* Section Title */
 .section-title {
   font-size: 48px;
-  color: var(--white);
+  /* color: var(--white); */
   margin-bottom: 15px;
   line-height: 56px;
   font-weight: var(--font-bold);
@@ -1435,13 +1439,13 @@ Contact Page Start
 .aai-contact-widget-title {
   font-size: var(--text-2xl);
   margin-bottom: 15px;
-  color: var(--white);
+  /* color: var(--white); */
   font-weight: var(--font-bold);
 }
 
 .aai-contact-address {
   font-size: var(--text-xl);
-  color: var(--white);
+  color: black;
 }
 
 .aai-form-input {
