@@ -1,53 +1,110 @@
-<link rel="stylesheet" href="assets/css/n1.css">
-<section id="services" class="services">
-        <div class="container">
-            <p style="font-size: 18px;" class="tm-margin-b-20">
-                PROSOFT provides the different platforms for integration using API, HL7 and customize protocols.</p>
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" style="width:100%;">
-                        <div class="icon"><i class="fa fa-gamepad "></i></div>
-                        <h4 class="title"><a href="">Interfaces Available</a></h4>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> QuickBooks / Tally </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Human Resource Management</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Signal Drugs Database / CIMS (Drug Database)/ Lexi /Vidal</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> SMS integration (One way / Both way)</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> WhatsApp Automation to get patient reports, receipts, and invoices.</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Lab Machine Interface (Abbott Processor, Roche Infinity, and others)</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> PACS for Radiology Images</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Barcode integration</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> KIOSK/LCD</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Smart Card Integration</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Web/Patient Portal Interface etc. </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" style="width:100%;">
-                        <div class="icon"><i class="fa fa-gamepad "></i></div>
-                        <h4 class="title"><a href="">Healthcare Standards </a></h4>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> NABH/NABL, JCI </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Standard Coding – ICD-10, CPT, SNOMED</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> HL7 compliant</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> HIPAA Compliant </p>
-                    </div>
-                </div>
+<style>
+  
 
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
 
+    .r1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
 
+    .card {
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        flex: 1 1 calc(50% - 20px);
+        /* Two cards in a row */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
 
+    .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #1A406D;
+    }
 
-            </div>
+    .card-text {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        color: #555657;
+    }
 
-        </div>
-        <br />
+    .card-text li {
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        color: #555657;
+        
+    }
+    .li{
+        color: #555657 !important;
+    }
 
-    </section>
+   
 
+    .card-text li {
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+        line-height: 1.5;
+        color: #555657;
+    }
 
+    /* Responsive for smaller screens */
+    @media (max-width: 768px) {
+        .card {
+            flex: 1 1 100%;
+            /* Stack cards vertically */
+        }
+    }
+</style>
 
-    <script>
-        $(document).ready(function() {
-            $('a[href$="#"]').addClass(" active");
-        })
-    </script>
+<section class="services lightblue  pt-120 pb-60">
+    <div class="container">
+    <div class="row text-center pb-4">
+            <h3 class="tm-gold-text tm-form-title"><span class="gradient-text">THIRD PARTY INTEGRATIONS</span></h3>
+        </div> 
+       
+    <p >PROSOFT provides the different platforms for integration using API, HL7 and customize protocols.</p>
+
+               <!-- First Row -->
+    <div class="row r1 pt-4">
+      <div class="card">
+        <h5 class="card-title">Interfaces Available</h5>
+        <ul class="list-unstyled">
+                        <li>QuickBooks / Tally</li>
+                        <li>Human Resource Management</li>
+                        <li>Signal Drugs Database / CIMS (Drug Database)/ Lexi /Vidal</li>
+                        <li>SMS integration (One way / Both way)</li>
+                        <li>WhatsApp Automation to get patient reports, receipts, and invoices</li>
+                        <li>Lab Machine Interface (Abbott Processor, Roche Infinity, and others)</li>
+                        <li>PACS for Radiology Images</li>
+                        <li>Barcode integration</li>
+                        <li>KIOSK/LCD</li>
+                        <li>Smart Card Integration</li>
+                        <li>Web/Patient Portal Interface</li>
+                    </ul>
+      </div>
+      <div class="card">
+        <h5 class="card-title">Healthcare Standards</h5>
+        <ul class="list-unstyled">
+                        <li>NABH/NABL, JCI</li>
+                        <li>Standard Coding – ICD-10, CPT, SNOMED</li>
+                        <li>HL7 compliant</li>
+                        <li>HIPAA Compliant</li>
+                    </ul>
+      </div>
+    </div>
+
+    </div>
+</section>

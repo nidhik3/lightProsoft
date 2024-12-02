@@ -1,19 +1,21 @@
-<link rel="stylesheet" href="assets/css/n1.css">
-  <section id="services" class="services">
+
+  <section id="services" class="services lightblue pt-120 pb-60">
         <div class="container">
-            <p style="font-size: 18px;" class="tm-margin-b-20">
-                ANGLEPRO RIS provides the solution to manage radiology orders in different and flexible way and below functionality. </p>
-            <br><br>
+        <div class="row text-center pb-4">
+            <h3 class="tm-gold-text tm-form-title"><span class="gradient-text">ANGLEPRO RIS</span></h3>
+        </div> 
+       
             <div class="row" >
-                <div class="col-md-6">
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> View radiology orders and orders tracking</p>
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Acknowledge radiology orders and modality selection.</p>
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> PACS Integration</p>
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Transfer images in supress formats.</p>
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Radiology reporting</p>
+                <div class="col-md-6 pt-4">
+            <p>ANGLEPRO RIS provides the solution to manage radiology orders in different and flexible way and below functionality. </p>
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> View radiology orders and orders tracking</p>
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> Acknowledge radiology orders and modality selection.</p>
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> PACS Integration</p>
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> Transfer images in supress formats.</p>
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> Radiology reporting</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/image/ris.jpg" alt="" width="100%">
+                    <img src="assets/image/ris.jpg" alt="" width="100%" style="border-radius: 20px;">
                 </div>
             </div>
 

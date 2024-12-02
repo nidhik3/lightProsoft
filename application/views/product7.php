@@ -1,19 +1,20 @@
-<link rel="stylesheet" href="assets/css/n1.css">
-<section id="services" class="services">
+<section id="services" class="services lightblue pt-120 pb-60">
         <div class="container">
-            <p style="font-size: 18px;" class="tm-margin-b-20">
-                ANGLEPRO CSMS provides the platform to submit the electronic claims to Insurance and other third parties with following features.</p>
-            <br><br>
+        <div class="row text-center pb-4">
+            <h3 class="tm-gold-text tm-form-title"><span class="gradient-text">ANGLEPRO CSMS</span></h3>
+        </div>
             <div class="row" >
-                <div class="col-md-6">
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Create the new claims</p>
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Audit the claims.</p>
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Claims submission</p>
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Claims resubmission</p>
-                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Bulk uploading for claim to system</p>
+                <div class="col-md-6 pt-4">
+            <p >ANGLEPRO CSMS provides the platform to submit the electronic claims to Insurance and other third parties with following features.</p>
+
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> Create the new claims</p>
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> Audit the claims.</p>
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> Claims submission</p>
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> Claims resubmission</p>
+                    <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1"></span> Bulk uploading for claim to system</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/image/ris.jpg" alt="" width="100%">
+                    <img src="assets/image/ris.jpg" alt="" width="100%"  style="border-radius: 20px;">
                 </div>
             </div>
 

@@ -1,80 +1,128 @@
-<link rel="stylesheet" href="assets/css/n1.css">
-<section id="services" class="services">
-        <div class="container">
+<style>
+   .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1A406D; /* Change this to your desired color */
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
 
-            <br><br>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon"><i class="fa fa-gamepad "></i></div>
-                        <h4 class="title"><a href="">Human Resource Management System</a></h4>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Employee Management System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> Employee Allowances System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Employee Deduction System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Shift Management System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Employee Transfer Management System</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Employees Allocated Resource Management System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Attendance Management System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Employees Leave System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Over Time Management System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Payroll Centre Management System</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Loan Term & Conditions </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Advance Salary Management System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Employee Performance Management System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Employee Clearance Management System (After Resign/Termination) </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Report Generation System </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Data Analysis through Dashboards </p>
+/* Card Text */
+.card-text {
+    font-size: 1rem;
+    color: #333; /* Text color */
+    line-height: 1.6;
+}
+
+    .card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        transition: transform 0.3s ease-in-out;
+        text-align: left;
+    }
+
+    .card {
+    flex: 1; /* Make all cards take up equal space */
+    margin: 0 15px; /* Add space between cards */
+    display: flex;
+    flex-direction: column; /* Ensure the card content flows vertically */
+    min-height: 100%; /* Ensure the height of the cards are equal */
+}
+
+.card-body {
+    flex-grow: 1; /* Make the card body grow to fill available space */
+}
+
+    .card .title {
+        /* font-size: 1.25rem; */
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: #1a406d;
+        /* Your preferred primary color */
+    }
+
+    .card ul {
+        padding: 0;
+        list-style: none;
+        margin: 0;
+    }
+
+    .card ul li {
+        /* font-size: 0.9rem; */
+        line-height: 1.8;
+        color: #555;
+        margin: 5px 0;
+        font-weight: 500;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+    }
+</style>
+
+
+<section class=" lightblue  pt-120 pb-60">
+    <div class="container">
+    <div class="row text-center pb-4">
+            <h3 class="tm-gold-text tm-form-title"><span class="gradient-text">ANGLEPRO CLOUD ERP</span></h3>
+        </div>
+        <div class="row d-flex justify-content-between">
+            <!-- Quality Control Card -->
+            <div class="col-md-4 ">
+                <div class="card card2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-body card-body2">
+                        <h5 class="card-title card-title2">Human Resource Management System</h5>
+                        <ul>
+                            <li> Employee Management System</li>
+                            <li> Employee Allowances System</li>
+                            <li> Employee Deduction System</li>
+                            <li> Shift Management System</li>
+                            <li> Employee Transfer Management System</li>
+                            <li> Attendance Management System</li>
+                            <li> Report Generation System</li>
+                            <li> Data Analysis through Dashboards</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon"><i class="fa fa-gamepad "></i></div>
-                        <h4 class="title"><a href="">Accounts & Finance </a></h4>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span> General Ledger </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Accounts Payable </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Accounts Receivable </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Asset Management </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Cash Management </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Customer management </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Vendor management </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Banking management </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Profit tracking </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Reporting </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Data Analytics Dashboards</p>
+            </div>
+
+            <!-- Quality Laboratory Processes Card -->
+            <div class="col-md-4  ">
+                <div class="card card3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-body card-body3">
+                        <h5 class="card-title card-title3">Accounts & Finance</h5>
+                        <ul>
+                            <li> General Ledger</li>
+                            <li> Accounts Payable</li>
+                            <li> Accounts Receivable</li>
+                            <li> Asset Management</li>
+                            <li> Profit Tracking</li>
+                            <li> Reporting</li>
+                            <li> Data Analytics Dashboards</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-                    <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon"><i class="fa fa-gamepad "></i></div>
-                        <h4 class="title"><a href=""> Procurement </a></h4>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Purchase Requisition</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Comparative Statement </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Purchase Order Request </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Inward Gate Pass</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Inspection Received Note </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Inward Gate Pass Return </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Goods Received Note</p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Inventory Management </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Products Management </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Vendor Management </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Reporting </p>
-                        <p><span style="font-weight: 800;font-size: 1.8em; line-height: 1">→</span>Data Analytics Dashboards</p>
+            </div>
+
+            <!-- Quality Assessment Card -->
+            <div class="col-md-4">
+                <div class="card card4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-body card-body4">
+                        <h5 class="card-title card-title4">Procurement</h5>
+                        <ul>
+                            <li> Purchase Requisition</li>
+                            <li> Goods Received Note</li>
+                            <li> Inventory Management</li>
+                            <li> Vendor Management</li>
+                            <li> Reporting</li>
+                            <li> Data Analytics Dashboards</li>
+                        </ul>
                     </div>
                 </div>
-
-
-
-
             </div>
         </div>
-        <br />
-
-    </section>
-
-
-
-    <script>
-        $(document).ready(function() {
-            $('a[href$="#"]').addClass(" active");
-        })
-    </script>
+    </div>
+</section>

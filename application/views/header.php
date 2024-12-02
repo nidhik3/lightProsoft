@@ -73,17 +73,17 @@
                   data-bs-auto-close="outside"
                   aria-expanded="false">PRODUCT</a>
                 <ul class="dropdown-menu">
-                  <li><a href="Product1">Hospital Management System (ANGLEPRO HIS)</a></li>
-                  <li><a href="Product1">Clinic Management System (ANGLEPRO CMS) </a></li>
-                  <li><a href="Product1">Lab Information System (ANGLEPRO LIS) </a></li>
-                  <li><a href="Product1">Pharmacy Management System (ANGLEPRO PMS) </a></li>
-                  <li><a href="Product1">Document Management System (ANGLEPRO DMS)</a></li>
-                  <li><a href="Product1">Radiology Information System (ANGLEPRO RIS) </a></li>
-                  <li><a href="Product1">Claims Submission Management System (ANGLEPRO CSMS)</a></li>
-                  <li><a href="Product1">ERP (ANGLEPRO ERP)</a></li>
-                  <li><a href="Product1">Mobile Solutions</a></li>
-                  <li><a href="Product1">KIOSK Solutions</a></li>
-                  <li><a href="Product1">Third Party Integrations</a></li>
+                  <li><a href="product1">Hospital Management System (ANGLEPRO HIS)</a></li>
+                  <li><a href="product2">Clinic Management System (ANGLEPRO CMS) </a></li>
+                  <li><a href="product3">Lab Information System (ANGLEPRO LIS) </a></li>
+                  <li><a href="product4">Pharmacy Management System (ANGLEPRO PMS) </a></li>
+                  <li><a href="product5">Document Management System (ANGLEPRO DMS)</a></li>
+                  <li><a href="product6">Radiology Information System (ANGLEPRO RIS) </a></li>
+                  <li><a href="product7">Claims Submission Management System (ANGLEPRO CSMS)</a></li>
+                  <li><a href="product8">ERP (ANGLEPRO ERP)</a></li>
+                  <li><a href="product9">Mobile Solutions</a></li>
+                  <li><a href="product10">KIOSK Solutions</a></li>
+                  <li><a href="product11">Third Party Integrations</a></li>
                 </ul>
               </li>
               <li class="nav-item">
