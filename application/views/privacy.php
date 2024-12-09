@@ -1,5 +1,4 @@
-<section class="privacy-policy py-5" style=" background-color: #080e26;
-            color: white;">
+<section class="privacy-policy py-5 lightblue">
              <div class="container pt-120">
             <h1>Privacy Policy</h1>
             <p>Prosoft’s Commitment to Your Privacy</p>

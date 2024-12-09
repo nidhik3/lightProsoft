@@ -1982,8 +1982,9 @@ Blog and Blog Detailss End
   }
 
   .aai-hero-one-title {
-    font-size: 36px;
-    line-height: 1.5;
+    font-size: 33px;
+        line-height: 1.5;
+        margin: 0;
   }
 
   .aai-hero-two-title {
@@ -1991,6 +1992,10 @@ Blog and Blog Detailss End
     line-height: 1.5;
   }
 
+  .aai-hero-one-desc {
+    font-size: var(--text-m);
+  
+}
   .aai-form-wrapper {
     padding: 20px;
   }
