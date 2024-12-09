@@ -1,41 +1,78 @@
    <!-- Footer Start -->
+   <style>
+     /* Back to Top Button */
+     .back-to-top {
+       position: fixed;
+       bottom: 20px;
+       right: 20px;
+       width: 50px;
+       height: 50px;
+       background-color: #1A406D;
+       /* Your preferred color */
+       color: white;
+       border-radius: 50%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+       opacity: 0;
+       visibility: hidden;
+       transition: opacity 0.3s ease, visibility 0.3s ease;
+       z-index: 1000;
+     }
+
+     .back-to-top:hover {
+       background-color: #0f2a4b;
+       /* Darker shade for hover */
+       transform: scale(1.1);
+     }
+
+     .back-to-top i {
+       font-size: 18px;
+     }
+
+     /* Show the button when scrolled down */
+     .back-to-top.show {
+       opacity: 1;
+       visibility: visible;
+     }
+   </style>
    <footer
      class="aai-footer "
      style="background-color:#f0f0f0; color:#555657;">
      <div class="container">
-       
+
        <div class="aai-footer-navigation-widgets pb-5 py-80">
-       <div class="aai-footer-support">
-          <div class="row g-4 align-items-center">
-            <div class="col-lg-6">
-              <div class="aai-support-info d-flex align-items-center">
-                <div>
-                  <img src="assets/img/icons/headset.svg" alt="" />
-                </div>
-                <div class="aai-support-contact">
-                  <p class="aai-support-text mb-1">
-                  Stay connected with us and receive all updates directly in your inbox.
-                  </p>
-                 
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="aai-newsletter">
-                <form>
-                  <div class="position-relative">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Enter your email"
-                    />
-                    <button class="aai-newsletter-btn">Subscribe</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
+         <div class="aai-footer-support">
+           <div class="row g-4 align-items-center">
+             <div class="col-lg-6">
+               <div class="aai-support-info d-flex align-items-center">
+                 <div>
+                   <img src="assets/img/icons/headset.svg" alt="" />
+                 </div>
+                 <div class="aai-support-contact">
+                   <p class="aai-support-text mb-1">
+                     Stay connected with us and receive all updates directly in your inbox.
+                   </p>
+
+                 </div>
+               </div>
+             </div>
+             <div class="col-lg-6">
+               <div class="aai-newsletter">
+                 <form>
+                   <div class="position-relative">
+                     <input
+                       type="text"
+                       class="form-control"
+                       placeholder="Enter your email" />
+                     <button class="aai-newsletter-btn">Subscribe</button>
+                   </div>
+                 </form>
+               </div>
+             </div>
+           </div>
+         </div>
          <div class="row pt-5">
            <div
              class="col-xl-3 col-lg-4 col-md-12"
@@ -52,7 +89,7 @@
                        &nbsp;</span>
                    </h6>
                    <p class="col-md-10 col-10 p-0">
-                     <a href="" style="color:#555657 !important;">+91 98765 43210</a><br>
+                     <a href="" style="color:#555657 !important;">+971 503948335</a><br>
                    </p>
                  </div>
                  <div class="email row col-md-12 m-0 pt-md-3 pt-2" style="align-items: center;">
@@ -70,7 +107,7 @@
                      Sharjah Media City, Sharjah,UAE</p>
                  </div>
                </div>
-               
+
              </div>
            </div>
            <div class="col-xl-8 col-lg-8 col-md-12 mt-5 mt-lg-0">
@@ -118,7 +155,7 @@
                  <nav class="aai-footer-nav">
                    <h3 class="aai-footer-nav-title">Useful Links</h3>
                    <ul class="aai-footer-nav-list">
-                    
+
                      <li class="aai-footer-nav-list-item">
                        <a href="privacy" class="aai-footer-nav-link">
                          Privacy Policy
@@ -126,21 +163,21 @@
                      </li>
                      <li class="aai-footer-nav-list-item">
                        <a href="terms" class="aai-footer-nav-link">Terms & Services </a>
-                     </li> 
+                     </li>
                      <li class="aai-footer-nav-list-item">
                        <a href="contact" class="aai-footer-nav-link">Contact</a>
                      </li>
                    </ul>
                    <div class="aai-social-links d-flex pt-md-3 pt-2">
-                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                   <i class="fa-brands fa-facebook-f"></i>
-                 </a>
-                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                   <i class="fa-brands fa-twitter"></i></a>
-                 <a href="http://" target="_blank" rel="noopener noreferrer">
-                   <i class="fa-brands fa-instagram"></i></a>
-                 <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
-               </div>
+                     <a href="http://" target="_blank" rel="noopener noreferrer">
+                       <i class="fa-brands fa-facebook-f"></i>
+                     </a>
+                     <a href="http://" target="_blank" rel="noopener noreferrer">
+                       <i class="fa-brands fa-twitter"></i></a>
+                     <a href="http://" target="_blank" rel="noopener noreferrer">
+                       <i class="fa-brands fa-instagram"></i></a>
+                     <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                   </div>
                  </nav>
                </div>
 
@@ -149,12 +186,17 @@
          </div>
        </div>
        <div class="container">
-        <hr>
+         <hr>
        </div>
        <div class="aai-footer-copyright text-center">
          <p class="aai-copyright-text">Copyright @2023 Prosoft</p>
        </div>
      </div>
+     <!-- Back to Top Button -->
+     <a href="#" class="back-to-top">
+       <i class="fas fa-chevron-up"></i>
+     </a>
+
    </footer>
    <!-- Footer End -->
 
@@ -166,7 +208,7 @@
    <script src="assets/js/glightbox-min.js"></script>
    <script src="assets/js/app.js"></script>
 
-<!-- 
+
    <script>
      const sliderContainer = document.querySelector('.slider-container');
      const prevButton = document.querySelector('.prev-arrow');
@@ -222,7 +264,29 @@
        movePrev();
        sliderInterval = setInterval(moveNext, 3000); // Restart auto slider after interaction
      });
-   </script> -->
+   </script>
+
+   <script>
+     // Show/Hide Back to Top Button on Scroll
+     const backToTopButton = document.querySelector('.back-to-top');
+
+     window.addEventListener('scroll', () => {
+       if (window.scrollY > 300) {
+         backToTopButton.classList.add('show');
+       } else {
+         backToTopButton.classList.remove('show');
+       }
+     });
+
+     // Smooth Scroll to Top
+     backToTopButton.addEventListener('click', (e) => {
+       e.preventDefault();
+       window.scrollTo({
+         top: 0,
+         behavior: 'smooth',
+       });
+     });
+   </script>
 
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>

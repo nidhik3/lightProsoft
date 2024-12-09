@@ -1,7 +1,7 @@
 <main class="wrapper">
     <!-- Breadcrumb Start -->
     <section
-        class="aai-breadcrumb" style="background: url('assets/image/banner.jpg') no-repeat center
+        class="aai-breadcrumb" style="background: url('assets/image/banner-n.jpeg') no-repeat center
             center/cover;">
         <div class="container">
             <div class="row justify-content-center">
@@ -16,19 +16,19 @@
                                     class="aai-breadcrumb-link text-decoration-underline">Home</a>
                             </li>
                             <li>
-                                <svg
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M14 16L18 12M18 12L14 8M18 12L6 12"
-                                        stroke="#DADADA"
-                                        stroke-width="1.5"
-                                        stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
+                            <svg
+                                      width="24"
+                                      height="24"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      xmlns="http://www.w3.org/2000/svg">
+                                      <path
+                                          d="M14 16L18 12M18 12L14 8M18 12L6 12"
+                                          stroke="#000000"
+                                          stroke-width="1.5"
+                                          stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                  </svg>
                             </li>
                             <li>
                                 <a href="" class="aai-breadcrumb-link"> About Us </a>
@@ -48,11 +48,9 @@
                 Healthcare Management.</h1>
             <div class="row">
                 <div class="col-md-12">
-                    <p class=" text-center mt-md-3 mt-3 wdd" style="margin:auto;">PROSOFT is a state certified provider of
-                        Healthcare services. Founded in 2007 In INDIA with the idea of easing the stress on Healthcare services and with
-                        the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow
-                        the Health sector to maintain security if possible while maintaining their level of independence and functioning.
-                    </p>
+                    <p class=" text-center mt-md-3 mt-3 wdd" style="margin:auto;">“PROSOFT” is a company founded on hard work and a competitive spirit to win for our clients. It's also founded on the principle of delivering more than expected.
+                    </p> 
+                  
                 </div>
             </div>
 
@@ -64,6 +62,12 @@
 
                 <div class="col-md-7 ">
                     <ul class="aai-list-items mt-4 text-center">
+                        <li class="aai-list-item d-flex align-items-center">
+                        <p class="text-start">PROSOFT is a state certified provider of
+                        Healthcare services. Founded in 2007 with the idea of easing the stress on Healthcare services and with
+                        the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow
+                        the Health sector to maintain security if possible while maintaining their level of independence and functioning.
+                    </p></li>
                         <li class="aai-list-item d-flex align-items-center">
                             <svg
                                 class="flex-shrink-0"

@@ -414,7 +414,7 @@
                   About Us 
                   </h2>
                   <p class="section-desc">
-                  "PROSOFT" is a state certified provider of Healthcare services. PROSOFT are founded in 2007 In INDIA with the idea of easing the stress on Healthcare services and with the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow the Health sector to maintain security if possible while maintaining their level of independence and functioning.
+                  "PROSOFT" is a state certified provider of Healthcare services. PROSOFT are founded in 2007  with the idea of easing the stress on Healthcare services and with the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow the Health sector to maintain security if possible while maintaining their level of independence and functioning.
                   </p>
                   <ul class="aai-list-items mt-4">
                     <li class="aai-list-item d-flex align-items-center">

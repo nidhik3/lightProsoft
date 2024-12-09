@@ -1,6 +1,52 @@
+  <style>
+      /* WhatsApp Floating Icon */
+      .whatsapp-float {
+          position: fixed;
+          bottom: 80px;
+          right: 20px;
+          width: 50px;
+          height: 50px;
+          background-color: #25d366;
+          color: white;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          font-size: 28px;
+          z-index: 1000;
+          transition: transform 0.3s ease;
+      }
+
+      .whatsapp-float:hover {
+          transform: scale(1.1);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      }
+
+      /* Adjustments for mobile responsiveness */
+      @media (max-width: 768px) {
+          .whatsapp-float {
+              bottom: 15px;
+              right: 15px;
+              width: 50px;
+              height: 50px;
+              font-size: 24px;
+          }
+      }
+
+      @media (max-width: 480px) {
+          .whatsapp-float {
+              bottom: 10px;
+              right: 10px;
+              width: 45px;
+              height: 45px;
+              font-size: 20px;
+          }
+      }
+  </style>
   <main class="wrapper">
       <!-- Breadcrumb Start -->
-      <section class="aai-breadcrumb" style="background: url('assets/image/banner.jpg') no-repeat center
+      <section class="aai-breadcrumb" style="background: url('assets/image/banner-n.jpeg') no-repeat center
             center/cover;">
           <div class="container">
               <div class="row justify-content-center">
@@ -23,11 +69,12 @@
                                       xmlns="http://www.w3.org/2000/svg">
                                       <path
                                           d="M14 16L18 12M18 12L14 8M18 12L6 12"
-                                          stroke="#DADADA"
+                                          stroke="#000000"
                                           stroke-width="1.5"
                                           stroke-linecap="round"
                                           stroke-linejoin="round" />
                                   </svg>
+
                               </li>
                               <li>
                                   <a href="contact" class="aai-breadcrumb-link"> Contact Us </a>
@@ -47,7 +94,7 @@
                   <div class="col-xl-6 col-lg pe-lg-5">
                       <div>
                           <h2 class="section-title mb-5 ">
-                             <span class=" gradient-text"> Connect </span>with us!
+                              <span class=" gradient-text"> Connect </span>with us!
                           </h2>
                           <div class="">
                               <div class="aai-contact-widget mb-4">
@@ -71,9 +118,9 @@
                                       <div>
                                           <h3 class="aai-contact-widget-title">Contact Info</h3>
                                           <!-- <p class="aai-contact-support">
-                          Open a chat or give us call at
-                        </p> -->
-                                          <a href="tel:3108415500" class="aai-contact-address">+971 559773828</a>
+                                            Open a chat or give us call at
+                                          </p> -->
+                                          <a href="tel:971 503948335" class="aai-contact-address">+971 503948335</a>
                                       </div>
                                   </div>
                               </div>
@@ -120,7 +167,10 @@
                   </div>
               </div>
           </div>
-     
+          <!-- WhatsApp Icon -->
+          <a href=https://api.whatsapp.com/send?phone=971503948335&text=Hello!" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-whatsapp"></i>
+          </a>
           <div class="container mt-5 paddingBottom">
               <h2 class="text-center pb-4">Find us on Maps</h2>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.7663082244744!2d55.67571487538441!3d25.27844557765873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5929a229f1c75%3A0xb28ae30eb6bb813a!2sSharjah%20Media%20City%20(Shams)!5e0!3m2!1sen!2sin!4v1727169585249!5m2!1sen!2sin" width="1100" height="450" style="border:2px solid rgb(141, 140, 140); border-radius:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

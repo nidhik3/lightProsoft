@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
   <!-- ======= Header ======= -->
   <!-- Menu Start -->
   <header class="header-primary  section-gradient-top">
@@ -30,7 +29,7 @@
               </li> -->
             <li class="d-flex align-items-center ">
               <div class="logo">
-                <a href="main"><img src="assets/image/logo.png" alt="" /></a>
+                <a href="main"><img src="assets/image/logo-g.png" alt="" /></a>
               </div>
             </li>
 

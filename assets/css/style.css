@@ -433,7 +433,7 @@ h6 {
   content: "\f078";
   font-family: "Font Awesome 6 Free";
   border: none !important;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 900;
   position: absolute;
   line-height: 30px;
@@ -477,7 +477,7 @@ h6 {
   }
 
   .header-primary .navbar .navbar-nav .nav-link::after {
-    color: #555657;
+    color: #498896;
   }
 
   .navbar .navbar-nav .nav-link {
@@ -816,14 +816,14 @@ h6 {
 
 .aai-page-title {
   font-size: 36px;
-  color: var(--white);
+  color: black;
   font-weight: var(--font-semibold);
   margin-bottom: 15px;
 }
 
 .aai-breadcrumb-link {
   font-size: var(--text-lg);
-  color: var(--interface-3);
+  color: black;
   line-height: 28px;
 }
 
@@ -933,6 +933,10 @@ h6 {
 }
 
 .aai-feature-box:hover .aai-feature-descnav-link{
+  color: white !important;
+}
+
+.aai-feature-box:hover .aai-feature-desc{
   color: white !important;
 }
 
