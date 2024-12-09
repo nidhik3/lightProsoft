@@ -176,7 +176,7 @@
                        <i class="fa-brands fa-twitter"></i></a>
                      <a href="http://" target="_blank" rel="noopener noreferrer">
                        <i class="fa-brands fa-instagram"></i></a>
-                     <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                     <a href="http://www.instagram.com/prosoftofficial?igsh=OTFreWU1YmU0ajYx" target="_blank" rel=""><i class="fa-brands fa-youtube"></i></a>
                    </div>
                  </nav>
                </div>
