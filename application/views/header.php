@@ -18,9 +18,9 @@
   <!-- ======= Header ======= -->
   <!-- Menu Start -->
   <header class="header-primary  section-gradient-top">
-    <div class="container">
-      <nav class="navbar navbar-expand-xl justify-content-between">
-        <div class="plogo col-md-2">
+    <div  style="background:#fff ">
+      <nav class="navbar navbar-expand-xl justify-content-between container">
+        <div class="plogo" >
           <ul>
             <!-- <li class="d-block d-xl-none">
                 <div class="logo">
@@ -29,14 +29,14 @@
               </li> -->
             <li class="d-flex align-items-center ">
               <div class="logo">
-                <a href="main"><img src="assets/image/logo-g.png" alt="" /></a>
+                <a href="main"><img style="width:50px; height:50px" src="assets/image/logo-g.png" alt="" /></a>
               </div>
             </li>
 
           </ul>
         </div>
-        <div class="bb row d-flex justify-content-between">
-          <div class="collapse navbar-collapse col-md-6 p-0" id="navbarNav">
+        <div class="bb row d-flex justify-content-between" >
+          <div class="collapse navbar-collapse p-0" id="navbarNav">
             <ul class="navbar-nav">
 
               <li class="nav-item">
@@ -106,11 +106,15 @@
           </div>
 
 
-          <div class="navbar-right d-flex align-items-center col-md-2 p-0 gap-4">
+          
+        </div>
+
+        <div >
+        <div class="navbar-right d-flex align-items-center  p-0 gap-4">
             <div
-              class="align-items-center aai-signup-in-links d-none d-lg-flex">
+              class="align-items-center justify-content-around aai-signup-in-links d-none d-lg-block">
               <!-- <a href="signin.html">Login</a> -->
-              <a href="contact" class="aai-gradient-outline-btn ">CONTACT </a>
+              <a href="contact" class="n-link"> CONTACT US </a> <i class="fa-regular fa-user" style="font-size: 13px; margin-left:5px;"></i>
             </div>
             <button
               class="navbar-toggler d-block d-xl-none"

@@ -59,7 +59,7 @@
                     </clipPath>
                   </defs>
                 </svg>
-                <span class="aai-list-item-text">Backed by Healthcare domain expertise and leadership</span> >
+                <span class="aai-list-item-text">Backed by Healthcare domain expertise and leadership</span> 
               </li>
               <li class="aai-list-item d-flex align-items-center">
                 <svg

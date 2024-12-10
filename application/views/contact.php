@@ -100,7 +100,7 @@
                               <div class="aai-contact-widget mb-4">
                                   <div class="aai-contact-widget-inner d-flex">
                                       <div>
-                                          <img src="assets/img/icons/contact-1.svg" alt="" />
+                                          <img src="assets/image/contact-1.png" alt="" />
                                       </div>
                                       <div>
                                           <h3 class="aai-contact-widget-title">Our Address</h3>
@@ -113,7 +113,7 @@
                               <div class="aai-contact-widget mb-4">
                                   <div class="aai-contact-widget-inner d-flex">
                                       <div>
-                                          <img src="assets/img/icons/contact-2.svg" alt="" />
+                                          <img src="assets/image/contact-2.png" alt="" />
                                       </div>
                                       <div>
                                           <h3 class="aai-contact-widget-title">Contact Info</h3>

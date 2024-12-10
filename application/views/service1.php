@@ -1,9 +1,9 @@
 <section class="topp pt-120 pb-60 lightblue">
     <div class="container">
         <!-- <h1 class=" text-center" style="font-weight: 700;"><span class="gradient-text">ProSoft</span></h1> -->
-        <h1 class=" text-center" style="font-weight: 700;">Outsourced <br> Product <span class=" gradient-text"> Development & Services</span></h1>
+        <h1 class=" section-title  text-center" style="font-weight: 700;">Outsourced <br> Product <span class=" gradient-text"> Development & Services</span></h1>
 
-        <p class="text-center mt-md-2 mt-2 wdd" style="max-width: 90%;margin:auto;">PROSOFT is a leading Outsourced Product Development and IT consulting company that provides full-spectrum software product development services to help organizations leverage leading-edge technologies for business improvement. kuch hua ?aapko hua m shi hu tu lg ni rhe shimene ni deh a sach m msg kbhi kbhi ni aate noti ok 
+        <p class=" psize text-center mt-md-2 mt-2 wdd" style="max-width: 90%;margin:auto;">PROSOFT is a leading Outsourced Product Development and IT consulting company that provides full-spectrum software product development services to help organizations leverage leading-edge technologies for business improvement.
         </p>
 
 

@@ -43,12 +43,12 @@
 
     <section class="topp normals whitebg">
         <div class="container pt-4">
-            <h1 class=" text-center" style="font-weight: 700;"><span class="gradient-text">ProSoft </span>Revolutionizing</h1>
-            <h1 class=" text-center" style="font-weight: 700;">
+            <h1 class="  section-title text-center m-0" style="font-weight: 700;"><span class="gradient-text">ProSoft </span>Revolutionizing</h1>
+            <h1 class=" section-title  text-center" style="font-weight: 700;">
                 Healthcare Management.</h1>
             <div class="row">
                 <div class="col-md-12">
-                    <p class=" text-center mt-md-3 mt-3 wdd" style="margin:auto;">“PROSOFT” is a company founded on hard work and a competitive spirit to win for our clients. It's also founded on the principle of delivering more than expected.
+                    <p class="psize text-center mt-md-3 mt-3 wdd" style="margin:auto;">“PROSOFT” is a company founded on hard work and a competitive spirit to win for our clients. It's also founded on the principle of delivering more than expected.
                     </p> 
                   
                 </div>
@@ -63,7 +63,7 @@
                 <div class="col-md-7 ">
                     <ul class="aai-list-items mt-4 text-center">
                         <li class="aai-list-item d-flex align-items-center">
-                        <p class="text-start">PROSOFT is a state certified provider of
+                        <p class="text-start psize">PROSOFT is a state certified provider of
                         Healthcare services. Founded in 2007 with the idea of easing the stress on Healthcare services and with
                         the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow
                         the Health sector to maintain security if possible while maintaining their level of independence and functioning.
@@ -84,7 +84,7 @@
                                     fill="#04091E" />
                             </svg>
 
-                            <span class="aai-list-item-text">High return on investment with low total cost of ownership</span>
+                            <span class="aai-list-item-text psize">High return on investment with low total cost of ownership</span>
                         </li>
                         <li class="aai-list-item d-flex align-items-center">
                             <svg
@@ -101,7 +101,7 @@
                                     d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
                                     fill="#04091E" />
                             </svg>
-                            <span class="aai-list-item-text">Solutions to strengthen core functions for greater impact</span>
+                            <span class="aai-list-item-text psize">Solutions to strengthen core functions for greater impact</span>
                         </li>
                         <li class="aai-list-item d-flex align-items-center">
                             <svg
@@ -118,7 +118,7 @@
                                     d="M17.8047 7.52876C18.0651 7.78911 18.0651 8.21122 17.8047 8.47157L10.4714 15.8049C10.2111 16.0653 9.78894 16.0653 9.5286 15.8049L6.19526 12.4716C5.93491 12.2112 5.93491 11.7891 6.19526 11.5288C6.45561 11.2684 6.87772 11.2684 7.13807 11.5288L10 14.3907L16.8619 7.52876C17.1223 7.26841 17.5444 7.26841 17.8047 7.52876Z"
                                     fill="#04091E" />
                             </svg>
-                            <span class="aai-list-item-text">On-time, on-budget project delivery</span>
+                            <span class="aai-list-item-text psize">On-time, on-budget project delivery</span>
                         </li>
                     </ul>
                 </div>

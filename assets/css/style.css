@@ -54,7 +54,7 @@
 }
 
 .slider-container img {
-  width: 300px;
+  width: 250px;
   /* Adjust the width based on your design */
   margin-right: 10px;
 }
@@ -225,7 +225,7 @@ h6 {
 
 /* Button */
 .aai-btn {
-  padding: 15px 30px;
+  padding: 5px 20px;
   border-radius: 30px;
   font-size: var(--text-lg);
   display: inline-block;
@@ -240,6 +240,42 @@ h6 {
   overflow: hidden;
   z-index: 10;
 }
+
+.btn-pill-border {
+  background-color: var(--white);
+  color:#428392;
+  font-size:16px;
+  transition: all 0.4s ease-in;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid ;
+  z-index: 10;  
+   border: 2px solid #428392;
+}
+
+
+.btn-pill-border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, rgb(80, 167, 186), rgb(103, 147, 174));
+  transition: all 0.35s;
+  border-radius: 30px;
+  z-index: -1;
+}
+
+.btn-pill-border:hover {
+  color: var(--white);
+  border: 1px solid transparent;
+}
+
+.btn-pill-border:hover::after {
+  width: 100%;
+}
+
 
 .btn-blue {
   border: 2px solid #428392;
@@ -330,7 +366,7 @@ h6 {
 }
 
 .aai-gradient-outline-btn {
-  padding: 10px 25px;
+  padding: 5px 20px;
   color: #555657;
   position: relative;
   display: inline-block;
@@ -378,17 +414,17 @@ h6 {
 
 /* Section Title */
 .section-title {
-  font-size: 47px;
+  font-size: 40px !important;
   /* color: var(--white); */
-  margin-bottom: 15px;
-  line-height: 56px;
+  margin-bottom: 6px;
+  /* line-height: 56px; */
   font-weight: var(--font-bold);
 }
 
 .section-desc {
-  font-size: 18px;
+  font-size: 16px;
   color: #555657;
-  line-height: 28px;
+  /* line-height: 28px; */
 }
 
 /* Navbar Start */
@@ -398,8 +434,17 @@ h6 {
   font-weight: 600;
 }
 
+ .n-link {
+  color: black !important;
+  font-size:12px !important;
+}
+
+ .n-link:hover {
+  color: #498896 !important;
+}
+
 .navbar .navbar-nav .nav-link {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: -0.2px;
   line-height: initial;
   color: #02274a;
@@ -426,14 +471,14 @@ h6 {
 .navbar .dropdown-menu .dropdown:hover>.dropdown-item,
 .navbar .dropdown-menu .dropdown-item.active,
 .navbar .dropdown-menu li a:hover {
-  color: #edcb88;
+  color: #498896;
 }
 
 .navbar .dropdown-toggle::after {
   content: "\f078";
   font-family: "Font Awesome 6 Free";
   border: none !important;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 900;
   position: absolute;
   line-height: 30px;
@@ -481,7 +526,7 @@ h6 {
   }
 
   .navbar .navbar-nav .nav-link {
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: -0.2px;
     line-height: initial;
     color: white;
@@ -508,7 +553,8 @@ h6 {
 
   .navbar .dropdown-menu {
     z-index: 20;
-    background-color: #66686dd1;
+    background-color: #ffffff;
+    color: #555657;
     display: block;
     right: 0;
     left: 0;
@@ -520,15 +566,15 @@ h6 {
     opacity: 0;
     min-width: 479px;
     line-height: 2;
-    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.12);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     margin: 0;
     transform-origin: 0 0;
     transition: all 0.3s ease-in-out;
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .navbar .dropdown-menu li a {
-    color: white;
+    color: #555657;
 
   }
 
@@ -758,23 +804,34 @@ h6 {
 }
 
 .aai-hero-one-title {
-  font-size: 68px;
+  font-size: 40px;
   font-weight: var(--font-bold);
   color: var(--white);
   line-height: 1.3;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .aai-hero-one-desc {
-  font-size: var(--text-xl);
+  font-size: 16px;
   color: var(--interface-3);
   line-height: 30px;
 }
 
+.psize{
+  font-size: 16px !important;
+}
+
+.msize{
+  font-size: 26px !important;
+}
+
 .aai-hero-one-img .aai-hero-img {
   position: absolute;
-  right: -180px;
-  top: 205px;
+  right: 35px;
+  top: 69px;
+  border-radius: 116px;
+  max-width: 58%;
+  z-index: 0;
 }
 
 /* Hero One End */
@@ -815,14 +872,14 @@ h6 {
 }
 
 .aai-page-title {
-  font-size: 36px;
+  font-size: 30px;
   color: black;
   font-weight: var(--font-semibold);
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .aai-breadcrumb-link {
-  font-size: var(--text-lg);
+  font-size:16px;
   color: black;
   line-height: 28px;
 }
@@ -947,16 +1004,16 @@ h6 {
 }
 
 .aai-feature-title {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: var(--font-bold);
   color: #555657;
   line-height: 34px;
   letter-spacing: -0.8px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .aai-feature-desc {
-  font-size: 18px;
+  font-size: 16px;
   color: var(--interface-2);
   margin-bottom: 20px;
   font-weight: var(--font-normal);
@@ -1322,7 +1379,7 @@ h6 {
 }
 
 .aai-footer-nav-title {
-  font-size: var(--text-2xl);
+  font-size: var(--text-xl);
   color: #242424;
   font-weight: var(--font-bold);
   line-height: 34px;
@@ -1331,7 +1388,7 @@ h6 {
 
 .aai-footer-nav-list {
   display: grid;
-  gap: 20px;
+  gap: 17px;
 }
 
 .aai-footer-nav-link {
@@ -1348,7 +1405,7 @@ h6 {
 }
 
 .aai-copyright-text {
-  font-size: var(--text-lg);
+  font-size: 16px;
   /* color: var(--white); */
   line-height: 28px;
 }
@@ -1558,7 +1615,7 @@ Contact Page End
 Signup and Signin Page Start
 ****************************/
 .aai-signup-in-links {
-  gap: 36px;
+  gap: 8px;
 }
 
 .aai-signup-in-links a:first-of-type {
@@ -1963,7 +2020,7 @@ Blog and Blog Detailss End
   }
 
   .section-title {
-    font-size: 36px;
+    /* font-size: 36px; */
     line-height: 1.3;
   }
 

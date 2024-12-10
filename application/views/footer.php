@@ -42,7 +42,7 @@
      style="background-color:#f0f0f0; color:#555657;">
      <div class="container">
 
-       <div class="aai-footer-navigation-widgets pb-5 py-80">
+       <div class="aai-footer-navigation-widgets pb-4 py-80">
          <div class="aai-footer-support">
            <div class="row g-4 align-items-center">
              <div class="col-lg-6">
@@ -81,10 +81,10 @@
              data-aos-delay="50">
              <div class="aai-footer-info">
                <a href="" class="aai-footer-logo">
-                 <img src="assets/image/logo.png" alt="" />
+                 <img  style="height:50px;" src="assets/image/logo1.png" alt="" />
                </a>
                <div class="info mt-4 col-md-12  row">
-                 <div class="phone row col-md-12 col-12 m-0 pt-md-3 pt-2" style="align-items: center;">
+                 <div class="phone row col-md-12 col-12 m-0 pt-md-1 pt-1" style="align-items: center;">
                    <h6 class="col-md-2 col-2" style="font-weight: 700;"> <span class="d-flex align-items-center"><i class="bi bi-phone"></i>
                        &nbsp;</span>
                    </h6>

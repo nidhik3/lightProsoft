@@ -72,7 +72,7 @@
     <section class="aai-hero-one position-relative whitebg "  >
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-xl-9">
+                <div class="col-lg-12 col-xl-7" style="z-index: 1;">
                     <div class="aai-hero-one-content">
                         <h1 class="aai-hero-one-title fontclr">
                         Hospital Information Management System <br />
@@ -83,8 +83,8 @@
                         <p class="aai-hero-one-desc fontclr">
                         Prosoft’s Hospital Information System delivers complete, reliable solutions for medical service management. Manage all major functions effortlessly on one intuitive platform. Get Prosoft today!
                         </p>
-                        <div class="mt-5 d-flex flex-column flex-md-row aai-btns-group">
-                            <a href="" class="btn-blue">Get Started</a>
+                        <div class="mt-4 d-flex flex-column flex-md-row aai-btns-group">
+                            <a href="" class="aai-btn btn-pill-border">Get Started</a>
                             <!-- <a href="about.html" class="aai-gradient-outline-btn">Learn More</a> -->
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                 <div class="col-lg-10 col-xl-5 mt-5 mt-lg-0">
                     <div class="aai-hero-one-img">
                         <img
-                            src="assets/img/hero/dashboard-img.png"
+                            src="https://zwin.io/html/moristan/assets/img/slider/slider-02.png"
                             class="img-fluid aai-hero-img d-none d-xl-block"
                             alt="" /><img
                             src="assets/img/hero/dashboard-img-2.png"
@@ -140,7 +140,7 @@
                             <!-- <p class="aai-feature-desc">
                     Convert data noise intelligent for a quis lorem.
                   </p> -->
-                            <a href="services-details.html" class="aai-feature-link">
+                            <a href="product9" class="aai-feature-link">
                                 <svg
                                     width="37"
                                     height="13"
@@ -181,7 +181,7 @@
                             <!-- <p class="aai-feature-desc">
                     Convert data noise intelligent for a quis lorem.
                   </p> -->
-                            <a href="services-details.html" class="aai-feature-link">
+                            <a href="product10" class="aai-feature-link">
                                 <svg
                                     width="37"
                                     height="13"
@@ -222,7 +222,7 @@
                             <!-- <p class="aai-feature-desc">
                     Convert data noise intelligent for a quis lorem.
                   </p> -->
-                            <a href="services-details.html" class="aai-feature-link">
+                            <a href="product11" class="aai-feature-link">
                                 <svg
                                     width="37"
                                     height="13"
@@ -264,7 +264,7 @@
                             <!-- <p class="aai-feature-desc">
                     Convert data noise intelligent for a quis lorem.
                   </p> -->
-                            <a href="services-details.html" class="aai-feature-link">
+                            <a href="service1" class="aai-feature-link">
                                 <svg
                                     width="37"
                                     height="13"
@@ -306,7 +306,7 @@
                             <!-- <p class="aai-feature-desc">
                     Generates suggestions for ad on targeting on ad.
                   </p> -->
-                            <a href="services-details.html" class="aai-feature-link">
+                            <a href="service2" class="aai-feature-link">
                                 <svg
                                     width="37"
                                     height="13"
@@ -348,7 +348,7 @@
                             <!-- <p class="aai-feature-desc">
                     Rewrites your text and say things different way.
                   </p> -->
-                            <a href="services-details.html" class="aai-feature-link">
+                            <a href="service3" class="aai-feature-link">
                                 <svg
                                     width="37"
                                     height="13"
@@ -374,7 +374,7 @@
                 </div>
             </div>
             <div class="text-center mt-1 pb-5" data-aos="fade-up" data-aos-delay="110">
-                <a href="services-details.html" class="aai-btn btn-pill-solid"> See More</a>
+                <a href="service1" class="aai-btn btn-pill-solid"> See More</a>
             </div>
         </div>
     </section>
@@ -386,7 +386,7 @@
 
 <section class="grey paddingTop" >
   <div class="container  pb-5">
-    <h1 class=" text-center lightblk" style="font-weight: 700;">Effortless Integrations for <br>
+    <h1 class=" section-title text-center lightblk" style="font-weight: 700;">Effortless Integrations for <br>
       Seamless Operations.
     </h1>
     <div class="row mt-md-5 mt-3 effortless">
@@ -502,7 +502,7 @@
                     </li>
                   </ul>
                   <div class="mt-5">
-                    <a href="services.html" class="aai-gradient-outline-btn">Learn More</a>
+                    <a href="about" class="aai-gradient-outline-btn">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -517,7 +517,7 @@
        
      
   <div class="container">
-    <h1 class=" text-center lightblk" style="font-weight: 700; ">Trusted by Leading Healthcare<br> Providers Worldwide.</h1>
+    <h1 class=" section-title text-center lightblk" style="font-weight: 700; ">Trusted by Leading Healthcare<br> Providers Worldwide.</h1>
   </div>
   <div class="row mt-md-3 mt-3 ">
     <div class="image-slider">
