@@ -445,7 +445,9 @@
         </div>
    
         <div class="container paddingTop">
-            <h1 class=" text-center" style="font-weight: 700; ">Trusted by Leading Healthcare<br> Providers Worldwide.</h1>
+        <h1 class="t-m section-title text-center lightblk m-0" style="font-weight: 700; ">Trusted by Leading Healthcare</h1>
+      <h1 class="t-m section-title text-center lightblk" style="font-weight: 700; "> Providers Worldwide.</h1>
+    </div>
         </div>
         <div class="row paddingBottom  ">
             <div class="image-slider">

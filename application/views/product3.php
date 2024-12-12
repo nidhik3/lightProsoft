@@ -1,60 +1,60 @@
 <style>
     /* General Card Styling */
-.card {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    overflow: hidden;
-    background-color: #fff;
-    margin-bottom: 20px;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Card Title */
-.card-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #1A406D; /* Change this to your desired color */
-    margin-bottom: 15px;
-    text-transform: capitalize;
-}
-
-/* Card Text */
-.card-text {
-    font-size: 1rem;
-    color: #333; /* Text color */
-    line-height: 1.6;
-}
-
-/* Section Title */
-.tm-gold-text {
-    color: #1A406D;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-/* Spacing for Container */
-.container {
-    padding: 20px 15px;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
     .card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        overflow: hidden;
+        background-color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Card Title */
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #1A406D;
+        /* Change this to your desired color */
         margin-bottom: 15px;
+        text-transform: capitalize;
     }
+
+    /* Card Text */
+    .card-text {
+        font-size: 1rem;
+        color: #333;
+        /* Text color */
+        line-height: 1.6;
+    }
+
+    /* Section Title */
     .tm-gold-text {
-        font-size: 1.25rem;
+        color: #1A406D;
+        font-weight: 700;
+        text-transform: uppercase;
     }
-}
 
+    /* Spacing for Container */
+    .container {
+        padding: 20px 15px;
+    }
 
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+        .card {
+            margin-bottom: 15px;
+        }
 
+        .tm-gold-text {
+            font-size: 1.25rem;
+        }
+    }
 </style>
 <section id="anglepro-lis " class="anglepro-lis lightblue  pt-120 pb-60">
     <div class="container">
@@ -67,7 +67,7 @@
         <br />
         <!-- First Row: Introduction to ANGLEPRO LIS -->
         <div class="row pb-4">
-        <p class="card-text card-text1">The solution “ANGLEPRO LIS” is a milestone in itself. ANGLEPRO LIS Laboratory Information System has been designed based on Total Quality Management (TQM) to enhance the performance in various work areas of the Laboratory. This TQM framework involves quality laboratory processes, quality control, quality assessment, quality improvement, and quality goals.</p>
+            <p class="card-text card-text1">The solution “ANGLEPRO LIS” is a milestone in itself. ANGLEPRO LIS Laboratory Information System has been designed based on Total Quality Management (TQM) to enhance the performance in various work areas of the Laboratory. This TQM framework involves quality laboratory processes, quality control, quality assessment, quality improvement, and quality goals.</p>
 
         </div>
 

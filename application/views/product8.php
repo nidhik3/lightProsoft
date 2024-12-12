@@ -75,7 +75,7 @@
                 <div class="card card2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                     <div class="card-body card-body2">
                         <h5 class="card-title card-title2">Human Resource Management System</h5>
-                        <ul>
+                        <ul class="tick">
                             <li> Employee Management System</li>
                             <li> Employee Allowances System</li>
                             <li> Employee Deduction System</li>
@@ -94,7 +94,7 @@
                 <div class="card card3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-body card-body3">
                         <h5 class="card-title card-title3">Accounts & Finance</h5>
-                        <ul>
+                        <ul  class="tick">
                             <li> General Ledger</li>
                             <li> Accounts Payable</li>
                             <li> Accounts Receivable</li>
@@ -112,7 +112,7 @@
                 <div class="card card4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                     <div class="card-body card-body4">
                         <h5 class="card-title card-title4">Procurement</h5>
-                        <ul>
+                        <ul  class="tick">
                             <li> Purchase Requisition</li>
                             <li> Goods Received Note</li>
                             <li> Inventory Management</li>

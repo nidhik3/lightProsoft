@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/glightbox-min.css" />
   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
 </head>
 
@@ -18,8 +19,8 @@
   <!-- ======= Header ======= -->
   <!-- Menu Start -->
   <header class="header-primary  section-gradient-top">
-    <div  style="background:#fff ">
-      <nav class="navbar navbar-expand-xl justify-content-between container">
+    <div  class="container">
+      <nav class="navbar navbar-expand-xl justify-content-between ">
         <div class="plogo" >
           <ul>
             <!-- <li class="d-block d-xl-none">
@@ -36,7 +37,7 @@
           </ul>
         </div>
         <div class="bb row d-flex justify-content-between" >
-          <div class="collapse navbar-collapse p-0" id="navbarNav">
+          <div class="collapse navbar-collapse p-md-0" id="navbarNav">
             <ul class="navbar-nav">
 
               <li class="nav-item">

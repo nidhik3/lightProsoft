@@ -30,6 +30,28 @@
 
 
 /* ncss */
+ul.tick {
+  list-style: none; /* Remove default bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+ul.tick li {
+  display: flex; /* Use flexbox for alignment */
+  align-items: flex-start; /* Align items at the top */
+  gap: 10px; /* Space between the checkmark and text */
+}
+
+ul.tick li::before {
+  content: "✔"; /* Add the checkmark */
+  color:#1A406D; /* Customize color */
+  font-size: 16px; /* Adjust size */
+  margin-right: 5px; /* Optional: fine-tune spacing */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+
+
 .dropdown-menu li a:hover {
   color: red;
 }
@@ -120,7 +142,7 @@
 }
 
 .section-gradient-top {
-  background: linear-gradient(to bottom, rgb(128 200 252 / 70%), rgba(255, 255, 255, 0));
+  /* background: linear-gradient(to bottom, rgb(128 200 252 / 70%), rgba(255, 255, 255, 0)); */
   background-size: cover;
   background-position: top;
   padding-bottom: 5px;
@@ -513,7 +535,7 @@ h6 {
     left: 0;
     width: 100%;
     z-index: 10000;
-    background-color: transparent;
+    background-color: #fff;
   }
 
   .header-primary .navbar .navbar-nav .nav-link {
@@ -632,7 +654,7 @@ h6 {
   }
 
   .header-primary .navbar-toggler span {
-    background: white;
+    background: #1A406D;
   }
 
   .header-primary .navbar-toggler span::after,
@@ -765,7 +787,7 @@ h6 {
   transition: transform 0.25s;
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  background: white;
+  background: #1A406D;
 }
 
 .navbar-toggler::after {
@@ -1997,79 +2019,3 @@ Blog and Blog Detailss Start
 /*************************
 Blog and Blog Detailss End
 ***************************/
-
-/* Responsive CSS */
-@media (min-width: 1600px) {
-  .aai-hero-one-img .aai-hero-img {
-    right: 0;
-  }
-}
-
-@media (max-width: 1199px) {
-  .aai-hero-one-img .aai-hero-img {
-    position: relative;
-    left: 0;
-    top: 50px;
-  }
-}
-
-@media (max-width: 768px) {
-  .writing-step {
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  }
-
-  .section-title {
-    /* font-size: 36px; */
-    line-height: 1.3;
-  }
-
-  .section-desc {
-    font-size: 16px;
-  }
-
-  .aai-contact-widget {
-    width: 100%;
-  }
-}
-
-@media (max-width: 576px) {
-  .aai-hero-one {
-    padding: 150px 0 120px 0;
-  }
-
-  .aai-hero-one-title {
-    font-size: 33px;
-        line-height: 1.5;
-        margin: 0;
-  }
-
-  .aai-hero-two-title {
-    font-size: 36px;
-    line-height: 1.5;
-  }
-
-  .aai-hero-one-desc {
-    font-size: var(--text-m);
-  
-}
-  .aai-form-wrapper {
-    padding: 20px;
-  }
-
-  .aai-accordions .accordion-button {
-    font-size: var(--text-xl);
-  }
-
-  .writing-step {
-    padding: 30px 20px;
-  }
-
-  .writing-step-title {
-    font-size: var(--text-xl);
-  }
-
-  .aai-table-wrapper {
-    overflow: scroll;
-  }
-}

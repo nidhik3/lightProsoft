@@ -1,6 +1,4 @@
 <style>
-  
-
     .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -45,13 +43,14 @@
         margin-bottom: 10px;
         line-height: 1.5;
         color: #555657;
-        
+
     }
-    .li{
+
+    .li {
         color: #555657 !important;
     }
 
-   
+
 
     .card-text li {
         font-size: 0.95rem;
@@ -71,40 +70,40 @@
 
 <section class="services lightblue  pt-120 pb-60">
     <div class="container">
-    <div class="row text-center pb-4">
+        <div class="row text-center pb-4">
             <h3 class="tm-gold-text tm-form-title"><span class="gradient-text">THIRD PARTY INTEGRATIONS</span></h3>
-        </div> 
-       
-    <p >PROSOFT provides the different platforms for integration using API, HL7 and customize protocols.</p>
+        </div>
 
-               <!-- First Row -->
-    <div class="row r1 pt-4">
-      <div class="card">
-        <h5 class="card-title">Interfaces Available</h5>
-        <ul class="list-unstyled">
-                        <li>QuickBooks / Tally</li>
-                        <li>Human Resource Management</li>
-                        <li>Signal Drugs Database / CIMS (Drug Database)/ Lexi /Vidal</li>
-                        <li>SMS integration (One way / Both way)</li>
-                        <li>WhatsApp Automation to get patient reports, receipts, and invoices</li>
-                        <li>Lab Machine Interface (Abbott Processor, Roche Infinity, and others)</li>
-                        <li>PACS for Radiology Images</li>
-                        <li>Barcode integration</li>
-                        <li>KIOSK/LCD</li>
-                        <li>Smart Card Integration</li>
-                        <li>Web/Patient Portal Interface</li>
-                    </ul>
-      </div>
-      <div class="card">
-        <h5 class="card-title">Healthcare Standards</h5>
-        <ul class="list-unstyled">
-                        <li>NABH/NABL, JCI</li>
-                        <li>Standard Coding – ICD-10, CPT, SNOMED</li>
-                        <li>HL7 compliant</li>
-                        <li>HIPAA Compliant</li>
-                    </ul>
-      </div>
-    </div>
+        <p>PROSOFT provides the different platforms for integration using API, HL7 and customize protocols.</p>
+
+        <!-- First Row -->
+        <div class="row r1 pt-4">
+            <div class="card">
+                <h5 class="card-title">Interfaces Available</h5>
+                <ul class="tick">
+                    <li>QuickBooks / Tally</li>
+                    <li>Human Resource Management</li>
+                    <li>Signal Drugs Database / CIMS (Drug Database)/ Lexi /Vidal</li>
+                    <li>SMS integration (One way / Both way)</li>
+                    <li>WhatsApp Automation to get patient reports, receipts, and invoices</li>
+                    <li>Lab Machine Interface (Abbott Processor, Roche Infinity, and others)</li>
+                    <li>PACS for Radiology Images</li>
+                    <li>Barcode integration</li>
+                    <li>KIOSK/LCD</li>
+                    <li>Smart Card Integration</li>
+                    <li>Web/Patient Portal Interface</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h5 class="card-title">Healthcare Standards</h5>
+                <ul class="tick">
+                    <li>NABH/NABL, JCI</li>
+                    <li>Standard Coding – ICD-10, CPT, SNOMED</li>
+                    <li>HL7 compliant</li>
+                    <li>HIPAA Compliant</li>
+                </ul>
+            </div>
+        </div>
 
     </div>
 </section>
