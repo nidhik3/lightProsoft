@@ -119,8 +119,7 @@
                  data-aos-duration="1500">
 
                </div>
-               <div
-                 class="col-xl-3col-lg-4 col-md-4 mb-5 mb-lg-0"
+               <div class="col-xl-3col-lg-4 col-md-4 mb-5 mb-lg-0 sitemap"
                  data-aos="fade-up"
                  data-aos-delay="100"
                  data-aos-duration="1500">

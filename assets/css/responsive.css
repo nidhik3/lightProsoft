@@ -116,7 +116,9 @@
 	.pt-120{
 		padding-top: 30px;
 	}
-
+.sitemap{
+	display: none !important;
+}
 
 
 }
