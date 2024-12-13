@@ -5,11 +5,6 @@
     padding: 0;
   }
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
 
   .r1 {
     display: flex;
@@ -74,8 +69,8 @@
   }
 </style>
 
-<section class="lightblue pt-120 pb-60">
-  <div class="container">
+<section class="lightblue pt-120 pb-60  mtop">
+  <div class="container ">
 
     <div class="row">
       <div class="col-md-7 pt-2 ">
@@ -112,7 +107,7 @@
       </div>
       <div class="card">
         <h5 class="card-title">Treatment Room/Nurse Desk</h5>
-        <ul  class="tick">
+        <ul class="tick">
           <li>Adding the Vital signs, Capturing Medical and Family history, Review of system for the patients.</li>
           <li>Internal medicines/Injection prescribed by the doctor will be shown in Nurse Desk and nurse can document the required details.</li>
           <li>Adding Procedures for patients directly coming to Nurse desk.</li>
@@ -124,7 +119,7 @@
     <div class="row r1 pt-4">
       <div class="card">
         <h5 class="card-title">E-Claims</h5>
-        <ul  class="tick">
+        <ul class="tick">
           <li>Coder Review of Claims by checking the medical records, changing diagnosis, CPT edit etc.</li>
           <li>Validating each Claim during coder audit before approving.</li>
           <li>Coder and Doctor Communication for the documentation edit.</li>
@@ -135,7 +130,7 @@
       </div>
       <div class="card">
         <h5 class="card-title">Receptionist</h5>
-        <ul  class="tick">
+        <ul class="tick">
           <li>Creating New patient files using Emirates ID to fetch the patient details like Name, nationality, Birth Date, Emirates ID etc.</li>
           <li>Automatic Insurance Card/Emirates ID Scanning and upload into the system.</li>
           <li>Options to search existing patients with File No, Mobile no, Name etc.</li>

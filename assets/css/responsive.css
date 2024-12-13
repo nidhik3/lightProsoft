@@ -88,7 +88,7 @@
 	.aai-newsletter .form-control{
 		padding: 10px ;
 	}
-	.aai-support-text{
+	.aai-support-text, ul.tick{
 		font-size: 13px;
 	}
 	.aai-footer-support{
@@ -97,12 +97,25 @@
 	.py-80{
 		padding: 20px;
 	}
-	
+	.ncounter{
+		font-size: 20px;
+	}
 
-
-
-
-
+	.mtop{
+		padding-top: 85px !important;
+	}
+	.card-title{
+		font-size: 17px !important;
+	}
+	.pt-60{
+		padding: 0;
+	}
+	.pb-60{
+		padding-bottom: 30px;
+	}
+	.pt-120{
+		padding-top: 30px;
+	}
 
 
 

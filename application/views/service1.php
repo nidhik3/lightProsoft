@@ -51,7 +51,7 @@
 
        }
    </style>
-   <section class="normals  pt-120 ">
+   <section class="normals mtop  pt-120 ">
        <div class="container">
            <h1 class=" section-title  text-center" style="font-weight: 700;">Outsourced <br> Product<span class=" gradient-text"> Development & Services</span></h1>
 
@@ -116,7 +116,7 @@
            <!-- Second Row: ProSoft Advantages -->
            <div class="row">
                <!-- Card1 -->
-               <div class="col-md-4 d-flex align-items-stretch">
+               <div class="col-md-4 mt-md-0 mt-3 d-flex align-items-stretch">
                    <div class="card card2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                        <div class="card-body card-body2">
                            <h5 class="card-title ">
@@ -137,7 +137,7 @@
                </div>
 
                <!-- Card2 -->
-               <div class="col-md-4 d-flex align-items-stretch">
+               <div class="col-md-4  mt-md-0 mt-3 d-flex align-items-stretch">
                    <div class="card card3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
                        <div class="card-body card-body3">
                            <h5 class="card-title card-title3">Outsourced Product Development & Services: Advantages</h5>
@@ -155,7 +155,7 @@
                </div>
 
                <!--  Card3 -->
-               <div class="col-md-4 d-flex align-items-stretch">
+               <div class="col-md-4  mt-md-0 mt-3 d-flex align-items-stretch">
                    <div class="card card4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                        <div class="card-body card-body4">
                            <h5 class="card-title card-title4">

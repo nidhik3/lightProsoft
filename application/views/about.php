@@ -1,3 +1,8 @@
+<style>
+    .ncounter{
+        color:#212529;font-weight:500;
+    }
+</style>
 <main class="wrapper">
     <!-- Breadcrumb Start -->
     <section
@@ -134,17 +139,17 @@
     <section class="top1 py-5 grey ">
         <div class="" style="max-width: 90%;margin:auto;">
             <div class="row d-flex justify-content-around">
-                <div class="col-md-3 m-md-0 text-center">
+                <div class="col-md-3 m-md-0  text-center">
                     <h1 class="gradient-text" style="font-weight:800;"><span></span>65</h1>
-                    <h4 style="color:#212529;font-weight:500;">Happy Clients</h4>
+                    <h4 class="ncounter">Happy Clients</h4>
                 </div>
-                <div class="col-md-3 m-md-0 text-center">
+                <div class="col-md-3 m-md-0 mt-3 text-center">
                     <h1 class="gradient-text" style="font-weight:800;">85</h1>
-                    <h4 style="color: #212529;font-weight:500;">Projects</h4>
+                    <h4 class="ncounter">Projects</h4>
                 </div>
-                <div class="col-md-3 m-md-0 text-center">
+                <div class="col-md-3 m-md-0 mt-3 text-center">
                     <h1 class="gradient-text" style="font-weight:800;">18</h1>
-                    <h4 style="color:#212529;font-weight:500;">Years of <br>
+                    <h4 class="ncounter">Years of <br>
                         experience</h4>
                 </div>
 

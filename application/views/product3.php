@@ -40,10 +40,7 @@
         text-transform: uppercase;
     }
 
-    /* Spacing for Container */
-    .container {
-        padding: 20px 15px;
-    }
+   
 
     /* Responsive Adjustments */
     @media (max-width: 768px) {
@@ -56,7 +53,7 @@
         }
     }
 </style>
-<section id="anglepro-lis " class="anglepro-lis lightblue  pt-120 pb-60">
+<section id="anglepro-lis " class="anglepro-lis lightblue  mtop  pt-120 pb-60">
     <div class="container">
         <br />
         <!-- Section Title -->

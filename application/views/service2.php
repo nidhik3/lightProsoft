@@ -1,6 +1,6 @@
 <!-- Service Start -->
-<section class="aai-services lightblue" >
-<div class="container  pt-120 ">
+<section class="aai-services mtop lightblue">
+    <div class="container  pt-120 ">
         <!-- <h1 class=" text-center" style="font-weight: 700;"><span class="gradient-text">ProSoft</span></h1> -->
         <h1 class=" text-center" style="font-weight: 700;">Outsourced <br> Product <span class=" gradient-text"> Development & Services</span></h1>
 
@@ -10,14 +10,14 @@
 
 
     </div>
-    <div class="pt-120 pb-60">
+    <div class="pt-120  pb-60">
         <div class="container">
             <div class="row align-items-center">
                 <div
                     class="col-xl-5 col-lg order-2 order-lg-1 mt-5 mt-lg-0"
                     data-aos="fade-right">
                     <div>
-                    <img src="assets/image/service2a.png" class="img-fluid" alt="" />
+                        <img src="assets/image/service2a.png" class="img-fluid" alt="" />
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg order-1 order-lg-2">
@@ -52,19 +52,19 @@
                 <div class="col-xl-7 col-lg">
                     <div>
                         <h2 class="section-title mb-4">
-                        Website Hosting
+                            Website Hosting
                         </h2>
                         <p class="section-desc">
-                        A good domain name is as critical to the success of your website as its design and content. When selecting a domain name for your site follow a few guidelines. It must relate to your business, be easy to recall, have a simple spelling.
-                  Avoid hyphens and long names. Use long name and abbreviations if necessary. If the name you want is not available do not settle for .net, .org or .edu, as these are special domains reserved for non-commercial (.com) entities. See
-                  our guidelines for Domain Name Registration.
-                  <br /><br /> Your web technology and architecture will decide the hosting package you must get for yourself. The content, the expected traffic and commercial considerations will help you decide the hosting space and server you
-                  require. You must also decide the scope of services including Email, Managed Services and Domain Management. Get a complete specification from your website developer before signing up a package. Later upgrades can be costly. And
-                  when signing up a service, check on their support and references. No point signing up an inexpensive provider who cannot afford to provide prompt service.
-                  <br /><br /> We offer web hosting services only to our website customers. We have decade-long association with reputed data centers to provide shared hosting on dedicated servers. We also register new domains and manage domain
-                  transfer for our customers.
+                            A good domain name is as critical to the success of your website as its design and content. When selecting a domain name for your site follow a few guidelines. It must relate to your business, be easy to recall, have a simple spelling.
+                            Avoid hyphens and long names. Use long name and abbreviations if necessary. If the name you want is not available do not settle for .net, .org or .edu, as these are special domains reserved for non-commercial (.com) entities. See
+                            our guidelines for Domain Name Registration.
+                            <br /><br /> Your web technology and architecture will decide the hosting package you must get for yourself. The content, the expected traffic and commercial considerations will help you decide the hosting space and server you
+                            require. You must also decide the scope of services including Email, Managed Services and Domain Management. Get a complete specification from your website developer before signing up a package. Later upgrades can be costly. And
+                            when signing up a service, check on their support and references. No point signing up an inexpensive provider who cannot afford to provide prompt service.
+                            <br /><br /> We offer web hosting services only to our website customers. We have decade-long association with reputed data centers to provide shared hosting on dedicated servers. We also register new domains and manage domain
+                            transfer for our customers.
                         </p>
-                      
+
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg mt-5 mt-lg-0" data-aos="fade-left">
@@ -75,6 +75,6 @@
             </div>
         </div>
     </div>
-  
+
 </section>
 <!-- Service End -->
