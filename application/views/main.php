@@ -45,7 +45,7 @@
   }
 
   .slider-container img {
-    width: 300px;
+    /* width: 300px; */
     /* Adjust the width based on your design */
     margin-right: 10px;
   }
@@ -503,22 +503,22 @@
       <h1 class="t-m section-title text-center lightblk m-0" style="font-weight: 700; ">Trusted by Leading Healthcare</h1>
       <h1 class="t-m section-title text-center lightblk" style="font-weight: 700; "> Providers Worldwide.</h1>
     </div>
-    <div class="row mt-md-3 mt-3 ">
-      <div class="image-slider">
-        <!-- <button class="prev-arrow px-5">❮</button> -->
-        <div class="slider-container paddingBottom ">
-          <img src="assets/img/trust1.png" alt="Image 1">
-          <img src="assets/img/trust2.png" alt="Image 2">
-          <img src="assets/img/trust3.png" alt="Image 3">
-          <img src="assets/img/trust1.png" alt="Image 4">
-          <img src="assets/img/trust2.png" alt="Image 5">
-          <img src="assets/img/trust3.png" alt="Image 6">
+    <div class="row paddingBottom  ">
+            <div class="image-slider">
+                <!-- <button class="prev-arrow px-5">❮</button> -->
+                <div class="slider-container">
+                    <img src="assets/img/trust1.png" alt="Image 1">
+                    <img src="assets/img/trust2.png" alt="Image 2">
+                    <img src="assets/img/trust3.png" alt="Image 3">
+                    <img src="assets/img/trust1.png" alt="Image 4">
+                    <img src="assets/img/trust2.png" alt="Image 5">
+                    <img src="assets/img/trust3.png" alt="Image 6">
+                </div>
+                <!-- <button class="next-arrow px-5">❯</button> -->
+            </div>
+
+
         </div>
-        <!-- <button class="next-arrow px-5">❯</button> -->
-      </div>
-
-
-    </div>
   </section>
 
   <!-- trusted -->

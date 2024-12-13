@@ -16,19 +16,19 @@
                                     class="aai-breadcrumb-link text-decoration-underline">Home</a>
                             </li>
                             <li>
-                            <svg
-                                      width="24"
-                                      height="24"
-                                      viewBox="0 0 24 24"
-                                      fill="none"
-                                      xmlns="http://www.w3.org/2000/svg">
-                                      <path
-                                          d="M14 16L18 12M18 12L14 8M18 12L6 12"
-                                          stroke="#000000"
-                                          stroke-width="1.5"
-                                          stroke-linecap="round"
-                                          stroke-linejoin="round" />
-                                  </svg>
+                                <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 16L18 12M18 12L14 8M18 12L6 12"
+                                        stroke="#000000"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
                             </li>
                             <li>
                                 <a href="" class="aai-breadcrumb-link"> About Us </a>
@@ -49,25 +49,26 @@
             <div class="row">
                 <div class="col-md-12">
                     <p class="psize text-center mt-md-3 mt-3 wdd" style="margin:auto;">“PROSOFT” is a company founded on hard work and a competitive spirit to win for our clients. It's also founded on the principle of delivering more than expected.
-                    </p> 
-                  
+                    </p>
+
                 </div>
             </div>
 
 
             <div class="row my-md-2 mt-3 pt-3 ">
-            <div class="col-md-5">
+                <div class="col-md-5">
                     <img src="assets/image/about1.jpeg" alt="" style="max-width: 100%;">
                 </div>
 
                 <div class="col-md-7 ">
                     <ul class="aai-list-items mt-4 text-center">
                         <li class="aai-list-item d-flex align-items-center">
-                        <p class="text-start psize">PROSOFT is a state certified provider of
-                        Healthcare services. Founded in 2007 with the idea of easing the stress on Healthcare services and with
-                        the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow
-                        the Health sector to maintain security if possible while maintaining their level of independence and functioning.
-                    </p></li>
+                            <p class="text-start psize">PROSOFT is a state certified provider of
+                                Healthcare services. Founded in 2007 with the idea of easing the stress on Healthcare services and with
+                                the goal of providing easy and best solutions forever. Our goal is to create a collaborative plan that will allow
+                                the Health sector to maintain security if possible while maintaining their level of independence and functioning.
+                            </p>
+                        </li>
                         <li class="aai-list-item d-flex align-items-center">
                             <svg
                                 class="flex-shrink-0"
@@ -122,7 +123,7 @@
                         </li>
                     </ul>
                 </div>
-             
+
             </div>
 
         </div>
@@ -130,18 +131,18 @@
 
 
     <!-- our clients -->
-    <section class="top1 py-5 grey " >
+    <section class="top1 py-5 grey ">
         <div class="" style="max-width: 90%;margin:auto;">
             <div class="row d-flex justify-content-around">
-                <div class="col-md-3  text-center">
+                <div class="col-md-3 m-md-0 text-center">
                     <h1 class="gradient-text" style="font-weight:800;"><span></span>65</h1>
                     <h4 style="color:#212529;font-weight:500;">Happy Clients</h4>
                 </div>
-                <div class="col-md-3  text-center">
+                <div class="col-md-3 m-md-0 text-center">
                     <h1 class="gradient-text" style="font-weight:800;">85</h1>
                     <h4 style="color: #212529;font-weight:500;">Projects</h4>
                 </div>
-                <div class="col-md-3  text-center">
+                <div class="col-md-3 m-md-0 text-center">
                     <h1 class="gradient-text" style="font-weight:800;">18</h1>
                     <h4 style="color:#212529;font-weight:500;">Years of <br>
                         experience</h4>
@@ -443,11 +444,11 @@
             </div>
         </div>
         </div>
-   
+
         <div class="container paddingTop">
-        <h1 class="t-m section-title text-center lightblk m-0" style="font-weight: 700; ">Trusted by Leading Healthcare</h1>
-      <h1 class="t-m section-title text-center lightblk" style="font-weight: 700; "> Providers Worldwide.</h1>
-    </div>
+            <h1 class="t-m section-title text-center lightblk m-0" style="font-weight: 700; ">Trusted by Leading Healthcare</h1>
+            <h1 class="t-m section-title text-center lightblk" style="font-weight: 700; "> Providers Worldwide.</h1>
+        </div>
         </div>
         <div class="row paddingBottom  ">
             <div class="image-slider">

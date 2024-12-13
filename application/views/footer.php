@@ -58,7 +58,7 @@
                  </div>
                </div>
              </div>
-             <div class="col-lg-6">
+             <div class="col-lg-6 mt-md-4 m-0">
                <div class="aai-newsletter">
                  <form>
                    <div class="position-relative">
