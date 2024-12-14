@@ -78,7 +78,7 @@
               Prosoft’s Hospital Information System delivers complete, reliable solutions for medical service management. Manage all major functions effortlessly on one intuitive platform. Get Prosoft today!
             </p>
             <div class="mt-4 d-flex flex-column flex-md-row aai-btns-group">
-              <a href="" class="aai-btn btn-pill-border">Get Started</a>
+              <a href="about" class="aai-btn btn-pill-border">Get Started</a>
               <!-- <a href="about.html" class="aai-gradient-outline-btn">Learn More</a> -->
             </div>
           </div>
